@@ -5,6 +5,7 @@ from django.contrib.auth import login, authenticate
 from django.contrib.auth.forms import AuthenticationForm
 from .forms import NewUserForm
 
+#homepage for membership
 def homepage(request):
   return HttpResponse("this is homepage")
   
